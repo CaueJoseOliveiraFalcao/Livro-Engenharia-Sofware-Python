@@ -1,0 +1,9 @@
+python pode trabalhar com declaração de variaveis de forma condicional
+
+String em python na verdade e uma classe(objeto) que disponibiliza varias funções
+
+SubStrings  = uma maneira de acessar cada caractere ou fazer uma selecção de caracteres com base a []
+
+Objeto = Instancia de Uma Classe
+
+Bloco de instruções com if = tem que estar com tab para ser incluido dentro do if 
