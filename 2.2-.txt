@@ -7,3 +7,6 @@ SubStrings  = uma maneira de acessar cada caractere ou fazer uma selecção de c
 Objeto = Instancia de Uma Classe
 
 Bloco de instruções com if = tem que estar com tab para ser incluido dentro do if 
+
+
+3.7
