@@ -6,7 +6,7 @@ SubStrings  = uma maneira de acessar cada caractere ou fazer uma selecção de c
 
 Objeto = Instancia de Uma Classe
 
-Bloco de instruções com if = tem que estar com tab pasdsra ser incluido dentro do if 
+Bloco de instruções com if = tem qusdse estar com tab pasdsra ser incluido dentro do if 
 
 
 4.1
