@@ -1,10 +1,10 @@
 python pode trabalhar com declaração de variaveis de forma condicional
-
+dsadsad
 String em python na verdade e uma classe(objeto) que disponibiliza varias funções
 
 SubStrings  = uma maneira de acessar cada caractere ou fazer uma selecção de caracteres com base a []
 
-Objeto = Instancia de Uma Classe
+Objeto = Instancia de Uma Classesd
 
 Bloco de instruções com if = tem qusdse estar com tab pasdsra ser incluido dentro do if 
 
