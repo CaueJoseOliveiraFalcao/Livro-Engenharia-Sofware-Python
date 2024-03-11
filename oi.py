@@ -1,18 +1,15 @@
+import requests
+from bs4 import BeautifulSoup
 
+# Fazendo a solicitação HTTP para obter o conteúdo da página
+response = requests.get('https://www.gov.br/pt-br')
 
-arquivo = open('text.txt', 'r')
-numeroAlunos = 0
-numeroReprova = 0
-somaNotas = 0
-media = 0
-for linha in arquivo:
-    numeroAlunos += 1
-    nome = linha.split()[0]
-    nota = float(linha.split()[1])
-    if nota < 7.0:
-        numeroReprova += 1
-    somaNotas += nota
-media = somaNotas / numeroAlunos
+# Verificando se a solicitação foi bem-sucedida
+if response.status_code == 200:
+    # Passando o conteúdo HTML da página para o BeautifulSoup
+    soup = BeautifulSoup(response.content, 'html.parser')
 
-print(media, numeroAlunos, numeroReprova)
-arquivo.close()
+    # Imprimindo o conteúdo formatado
+    print(soup.find_all('a'))
+else:
+    print('Erro ao carregar a página:', response.status_code)
